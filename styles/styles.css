@@ -51,6 +51,7 @@ nav a:hover {
 /* =========================
    CONTENIDO PRINCIPAL
 ========================= */
+
 main {
     max-width: 1100px;
     margin: 0 auto;
@@ -73,10 +74,31 @@ h2 {
     font-weight: 500;
     color: #6F7058;
     margin-bottom: 15px;
+}
+
 p {
     font-size: 17px;
 }
 
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #6F7058;
+}
 
 /* =========================
    SECCIONES Y ARTÍCULOS
