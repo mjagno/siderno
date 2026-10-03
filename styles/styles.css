@@ -80,6 +80,32 @@ p {
 /* =========================
    SECCIONES Y ARTÍCULOS
 ========================= */
+article {
+    background-color: #E8E2D5;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+section ul {
+    padding-left: 25px;
+}
+
+figure {
+    margin-top: 20px;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 12px;
+}
+
+figcaption {
+    margin-top: 10px;
+    color: #6F7058;
+    font-style: italic;
+}
 
 
 /* =========================
