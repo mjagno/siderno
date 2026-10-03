@@ -1,6 +1,18 @@
 /* =========================
    ESTILOS GENERALES
 ========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4EFE6;
+    color: #3E4035;
+    line-height: 1.6;
+}
 
 
 /* =========================
