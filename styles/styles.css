@@ -8,12 +8,12 @@
 }
 
 body {
-    font-family: Georgia, serif;
-    background-color: red;
+   font-family: "Poppins", sans-serif;
+background-color: #F4EFE6;
     color: #3E4035;
     line-height: 1.6;
 }
-}
+
 
 
 /* =========================
@@ -135,21 +135,29 @@ footer a {
 /* =========================
    RESPONSIVE
 ========================= */
-footer {
-    background-color: #D8D2C4;
-    padding: 30px 40px;
-    text-align: center;
-}
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+    }
 
-footer p {
-    margin-bottom: 10px;
-}
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
 
-footer nav ul {
-    justify-content: center;
-    margin-top: 0;
-}
+    main {
+        padding: 40px 20px;
+    }
 
-footer a {
-    color: #3E4035;
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    footer {
+        padding: 25px 20px;
+    }
 }
