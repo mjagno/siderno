@@ -18,6 +18,33 @@ body {
 /* =========================
    HEADER Y NAVEGACIÓN
 ========================= */
+header {
+    background-color: #D8D2C4;
+    padding: 20px 40px;
+}
+
+header p {
+    font-size: 28px;
+    font-weight: bold;
+    color: #3E4035;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3E4035;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #8A7356;
+}
 
 
 /* =========================
