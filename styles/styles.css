@@ -167,7 +167,37 @@ section ul {
 .grilla-categorias li:nth-child(4) {
     grid-area: ideas;
 }
+/* GRILLA DE PRODUCTOS */
 
+.grilla-productos {
+    list-style: none;
+    display: grid;
+    grid-template-areas:
+        "diseno"
+        "identidad"
+        "funcionalidad";
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.grilla-productos li {
+    background-color: #B7D2C7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.grilla-productos li:nth-child(1) {
+    grid-area: diseno;
+}
+
+.grilla-productos li:nth-child(2) {
+    grid-area: identidad;
+}
+
+.grilla-productos li:nth-child(3) {
+    grid-area: funcionalidad;
+}
 figure {
     margin-top: 20px;
 }
