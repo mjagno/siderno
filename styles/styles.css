@@ -17,10 +17,12 @@ body {
     min-height: 100vh;
     display: flex;
     nav ul {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 12px;
+    list-style: none;
 }
 
 /* =========================
