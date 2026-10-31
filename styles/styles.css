@@ -294,7 +294,13 @@ footer a {
             "productos inspiracion diseno ideas";
         grid-template-columns: repeat(4, 1fr);
     }
-}
+
+    .grilla-productos {
+        grid-template-areas:
+            "diseno identidad funcionalidad";
+        grid-template-columns: repeat(3, 1fr);
+    }
+
        /* =========================
    GRILLA EN ESCRITORIO
 ========================= */
