@@ -23,6 +23,9 @@ body {
 header {
     background-color: #8DA39A;
     padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header .logo {
@@ -30,14 +33,14 @@ header .logo {
     font-weight: 700;
     color: #FFFFFF;
     text-transform: uppercase;
-}
+    text-decoration: none;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     gap: 25px;
-    margin-top: 15px;
+    margin-top: 0;
 }
 
 nav a {
@@ -48,6 +51,7 @@ nav a {
 
 nav a:hover {
     color: #D27243;
+}
 }
 
 /* =========================
