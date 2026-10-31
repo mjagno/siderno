@@ -218,6 +218,17 @@ footer a {
     nav ul {
         flex-direction: column;
         gap: 10px;
+       /* =========================
+   GRILLA EN ESCRITORIO
+========================= */
+
+@media (min-width: 1024px) {
+    .grilla-categorias {
+        grid-template-areas:
+            "productos inspiracion diseno ideas";
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
     }
 
     main {
