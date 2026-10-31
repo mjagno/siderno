@@ -198,3 +198,6 @@ footer a {
         padding: 25px 20px;
     }
 }
+.logo {
+    text-transform: uppercase;
+}
