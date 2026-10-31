@@ -278,6 +278,8 @@ footer a {
 
 /* ESCRITORIO */
 
+/* ESCRITORIO */
+
 @media (min-width: 1024px) {
     header {
         flex-direction: row;
@@ -299,52 +301,5 @@ footer a {
         grid-template-areas:
             "diseno identidad funcionalidad";
         grid-template-columns: repeat(3, 1fr);
-    }
-
-       /* =========================
-   GRILLA EN ESCRITORIO
-========================= */
-
-@media (min-width: 1024px) {
-    .grilla-categorias {
-        grid-template-areas:
-            "productos inspiracion diseno ideas";
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-    }
-
-    main {
-        padding: 40px 20px;
-    }
-
-    h1 {
-        font-size: 38px;
-    }
-
-    h2 {
-        font-size: 26px;
-    }
-
-    footer {
-        padding: 25px 20px;
-    }
-}
-.logo {
-    text-transform: uppercase;
-}
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 12px;
     }
 }
