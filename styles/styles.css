@@ -25,10 +25,12 @@ header {
     padding: 20px 40px;
 }
 
-header p {
+header .logo {
     font-size: 28px;
     font-weight: 700;
     color: #FFFFFF;
+    text-transform: uppercase;
+}
 }
 
 nav ul {
